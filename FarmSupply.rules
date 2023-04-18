@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 81)
+    (start_pass_no 283)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -53,11 +53,13 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
-    +5V GND "unconnected-(P1-PadA5)" "unconnected-(P1-PadA6)" "unconnected-(P1-PadA7)" "unconnected-(P1-PadA8)" "unconnected-(P1-PadB5)" "unconnected-(P1-PadB8)"
-    "unconnected-(P2-PadA5)" "unconnected-(P2-PadA6)" "unconnected-(P2-PadA7)" "unconnected-(P2-PadA8)" "unconnected-(P2-PadB5)" "unconnected-(P2-PadB8)" "unconnected-(P3-PadA5)" "unconnected-(P3-PadA6)"
-    "unconnected-(P3-PadA7)" "unconnected-(P3-PadA8)" "unconnected-(P3-PadB5)" "unconnected-(P3-PadB8)" "unconnected-(P4-PadA5)" "unconnected-(P4-PadA6)" "unconnected-(P4-PadA7)" "unconnected-(P4-PadA8)"
-    "unconnected-(P4-PadB5)" "unconnected-(P4-PadB8)" "unconnected-(P5-PadA5)" "unconnected-(P5-PadA6)" "unconnected-(P5-PadA7)" "unconnected-(P5-PadA8)" "unconnected-(P5-PadB5)" "unconnected-(P5-PadB8)"
-    "unconnected-(P6-PadA5)" "unconnected-(P6-PadA6)" "unconnected-(P6-PadA7)" "unconnected-(P6-PadA8)" "unconnected-(P6-PadB5)" "unconnected-(P6-PadB8)" "Net-(D1-Pad2)"
+    +5V GND "unconnected-(P1-PadA6)" "unconnected-(P1-PadA7)" "unconnected-(P1-PadA8)" "unconnected-(P1-PadB8)" "unconnected-(P2-PadA6)" "unconnected-(P2-PadA7)"
+    "unconnected-(P2-PadA8)" "unconnected-(P2-PadB8)" "unconnected-(P3-PadA6)" "unconnected-(P3-PadA7)" "unconnected-(P3-PadA8)" "unconnected-(P3-PadB8)" "unconnected-(P4-PadA6)" "unconnected-(P4-PadA7)"
+    "unconnected-(P4-PadA8)" "unconnected-(P4-PadB8)" "unconnected-(P5-PadA6)" "unconnected-(P5-PadA7)" "unconnected-(P5-PadA8)" "unconnected-(P5-PadB8)" "unconnected-(P6-PadA6)" "unconnected-(P6-PadA7)"
+    "unconnected-(P6-PadA8)" "unconnected-(P6-PadB8)" "Net-(D1-Pad2)" "Net-(P1-PadA5)" "Net-(P1-PadB5)" "Net-(P5-PadA5)" "Net-(P5-PadB5)" "Net-(P2-PadA5)"
+    "Net-(P2-PadB5)" "Net-(P6-PadA5)" "Net-(P6-PadB5)" "Net-(P3-PadA5)" "Net-(P3-PadB5)" "Net-(P4-PadA5)" "Net-(P4-PadB5)" "unconnected-(P1-PadB6)"
+    "unconnected-(P1-PadB7)" "unconnected-(P2-PadB6)" "unconnected-(P2-PadB7)" "unconnected-(P3-PadB6)" "unconnected-(P3-PadB7)" "unconnected-(P4-PadB6)" "unconnected-(P4-PadB7)" "unconnected-(P5-PadB6)"
+    "unconnected-(P5-PadB7)" "unconnected-(P6-PadB6)" "unconnected-(P6-PadB7)"
     (clearance_class default)
     (via_rule default)
     (rule

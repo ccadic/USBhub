@@ -367,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "FarmSupply.dsn",
-      "step": "",
+      "step": "FarmSupply.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
