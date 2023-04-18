@@ -1,0 +1,239 @@
+
+(session FarmSupply.ses
+  (base_design FarmSupply.dsn)
+  (placement
+    (resolution um 10)
+    (component Resistor_SMD:R_0805_2012Metric
+      (place R1 762000 -905275 front 90)
+    )
+    (component LED_SMD:LED_0805_2012Metric
+      (place D1 825500 -905025 front 90)
+    )
+    (component "18650:GT-USB-7010"
+      (place P1 889000 -965200 front 0)
+    )
+    (component MountingHole:MountingHole_3.2mm_M3
+      (place H2 1206500 -850900 front 0)
+      (place H1 793750 -850900 front 0)
+      (place H3 1206500 -952500 front 0)
+      (place H4 793750 -952500 front 0)
+    )
+    (component "18650:GT-USB-7010::1"
+      (place P5 1000200 -965200 front 0)
+    )
+    (component "18650:GT-USB-7010::2"
+      (place P3 1111400 -838200 front 180)
+    )
+    (component "18650:GT-USB-7010::3"
+      (place P2 1111400 -965200 front 0)
+    )
+    (component "18650:GT-USB-7010::4"
+      (place P4 1000200 -838200 front 180)
+    )
+    (component "18650:GT-USB-7010::5"
+      (place P6 889000 -838200 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(6.0.11)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path F.Cu 2500
+            1154600 -861300
+            1146200 -869700
+            1144900 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1154600 -942100
+            1146200 -933700
+            1144900 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1043400 -861300
+            1035000 -869700
+            1033700 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1043400 -942100
+            1035000 -933700
+            1033700 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            957000 -942100
+            965400 -933700
+            966700 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            957000 -861300
+            965400 -869700
+            966700 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            932200 -861300
+            923800 -869700
+            922500 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            932200 -942100
+            923800 -933700
+            922500 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            849000 -937900
+            825500 -914400
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            855500 -933700
+            853200 -933700
+            849000 -937900
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            845800 -942100
+            849000 -938900
+            849000 -937900
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            922500 -933700
+            919500 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            855500 -933700
+            858500 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1033700 -933700
+            1030700 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            966700 -933700
+            969700 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1068200 -861300
+            1076600 -869700
+            1077900 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1077900 -869700
+            1080900 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1144900 -869700
+            1141900 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1068200 -942100
+            1076600 -933700
+            1077900 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1144900 -933700
+            1141900 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1077900 -933700
+            1080900 -933700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            966700 -869700
+            969700 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1033700 -869700
+            1030700 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            845800 -861300
+            854200 -869700
+            855500 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            855500 -869700
+            858500 -869700
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            922500 -869700
+            919500 -869700
+          )
+        )
+      )
+      (net "Net-(D1-Pad2)"
+        (wire
+          (path F.Cu 2500
+            825500 -895650
+            762500 -895650
+            762000 -896150
+          )
+        )
+      )
+    )
+  )
+)
